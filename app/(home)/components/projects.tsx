@@ -12,16 +12,14 @@ const Projects = () => {
                 text={'Projects 🎨'}
                 className={'flex flex-col items-center justify-center rotate-6'}
             />
-            <div className={'grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 pt-20 gap-5'}>
+            <div className={'grid grid-cols-1 sm:grid-cols-2 pt-20 gap-10'}>
                 {projects.map((project, idx) => {
                     {console.log(project.background)}
                     return (
                         <Link
                             key={idx}
                             href={project.link}
-                            target={'_blank'}
                         >
-
                             <div className={cn('p-5 rounded-md',
                                 project.background,
                             )}>
