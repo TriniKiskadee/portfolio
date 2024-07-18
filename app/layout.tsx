@@ -21,7 +21,7 @@ export const metadata: Metadata = {
             "Based in Trinidad, I'm a Fullstack developer passionate about building modern web application that users love.",
         url: "https://renaudsennon-portfolio.vercel.app/",
         siteName: "Renaud Sennon",
-        images: "/thumbnail.png",
+        images: "/public/thumbnail.png",
         type: "website",
     },
     keywords: ["portfolio", "Renaud Sennon"],
