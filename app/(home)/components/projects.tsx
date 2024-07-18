@@ -25,6 +25,7 @@ const Projects = () => {
                             )}>
                                 <DirectionAwareHover
                                     imageUrl={project.cover}
+                                    imageClassName={'max-h-[280px]'}
                                     className={'w-full space-y-5 cursor-pointer'}
                                 >
                                     <div className={'spacy-y-5 bg-black/50 rounded-lg m-4'}>

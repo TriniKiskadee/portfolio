@@ -13,10 +13,10 @@ import {
 
 export const projects = [
     {
-        title: 'Minerva AI',
+        title: 'Minerva AI (coming soon)',
         tech: [SiNextdotjs, SiTypescript, SiTailwindcss, SiStripe, SiClerk, SiPrisma, SiShadcnui],
         link: '/coming-soon',
-        cover: '/projects/caution.png',
+        cover: '/caution.png',
         background: 'bg-rose-500',
     },
     {
@@ -26,19 +26,4 @@ export const projects = [
         cover: '/projects/digital_hippo_thumbnail.jpg',
         background: `bg-emerald-500`,
     },
-    {
-        title: 'Digital Hippo',
-        tech: [SiNextdotjs, SiTypescript, SiTailwindcss, SiTrpc, SiStripe, SiPayloadcms, SiShadcnui],
-        link: 'https://github.com/TriniKiskadee/digitalhippo/tree/master',
-        cover: '/projects/digital_hippo_thumbnail.jpg',
-        background: `bg-amber-500`,
-    },
-    {
-        title: 'Digital Hippo',
-        tech: [SiNextdotjs, SiTypescript, SiTailwindcss, SiTrpc, SiStripe, SiPayloadcms, SiShadcnui],
-        link: 'https://github.com/TriniKiskadee/digitalhippo/tree/master',
-        cover: '/projects/digital_hippo_thumbnail.jpg',
-        background: 'bg-indigo-500',
-    },
-
 ]
