@@ -1,5 +1,5 @@
 # Renaud Sennon - Portfolio
-![thumbnail](/thumbnail.png)
+![thumbnail](/public/thumbnail.png)
 
 Welcome to my portfolio website! This website showcases my projects, skills, and experience as a web developer.
 
@@ -54,9 +54,9 @@ npm start
 Open your browser and visit http://localhost:3000 to view the website.
 
 ## Screenshots
-![Hero Section](/thumbnail.png)
-![Skills Section](/skills.png)
-![Project Section](/projects.png)
+![Hero Section](/public/thumbnail.png)
+![Skills Section](/public/skills.png)
+![Project Section](/public/projects.png)
 
 
 ## Contact
