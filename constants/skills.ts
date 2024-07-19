@@ -3,13 +3,14 @@ import {
     SiJavascript,
     SiMongodb,
     SiNextdotjs,
-    SiNodedotjs, SiOpenai,
+    SiNodedotjs,
+    SiPrisma,
     SiReact,
     SiTailwindcss,
     SiTypescript
 } from "react-icons/si";
-import {FaHiking} from "react-icons/fa";
-import {GiDoubleDragon} from "react-icons/gi";
+import {GiDoubleDragon, GiPegasus} from "react-icons/gi";
+import {FaBowlRice} from "react-icons/fa6";
 
 export const skills = [
     {
@@ -45,11 +46,19 @@ export const skills = [
         Icon: SiMongodb,
     },
     {
-        text: 'OpenAI',
-        Icon: SiOpenai,
+        text: 'Prisma',
+        Icon: SiPrisma,
     },
     {
-        text: 'Defeating Dragons',
+        text: 'Petsitting Dragons',
         Icon: GiDoubleDragon,
+    },
+    {
+        text: 'Taming Pegasi',
+        Icon: GiPegasus,
+    },
+    {
+        text: 'Cooking Rice',
+        Icon: FaBowlRice,
     },
 ]

@@ -13,7 +13,7 @@ export default function Home() {
                     <Navbar/>
                     <HeroSection/>
                 </div>
-                <div className={'h-20 xl:h-32 w-full bg-gradient-to-t from-black absolute -bottom-5 left-0 xl:bottom-0 '} />
+                <div className={'h-20 xl:h-32 w-full bg-gradient-to-t from-black absolute -bottom-5 left-0 xl:bottom-0'} />
             </div>
             <div className={'max-w-7xl mx-auto p-5 mt-20'}>
                 <Skills />

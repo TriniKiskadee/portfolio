@@ -5,7 +5,8 @@ import Link from "next/link";
 
 const HeroSection = () => {
     return (
-        <div className={'min-h-[60vh] flex lg:flex-row flex-col-reverse gap-14 lg:gap-0 items-center justify-between animate-move-up'}>
+        <div
+            className={'min-h-[60vh] flex lg:flex-row flex-col-reverse gap-14 lg:gap-0 items-center justify-between animate-move-up'}>
             {/* Hero Text */}
             <div className={'space-y-10 text-center lg:text-left'}>
                 <h1 className={'text-4xl lg:text-7xl font-bold'}>
@@ -19,15 +20,19 @@ const HeroSection = () => {
                     modern web application that users love.
                 </p>
 
-                <Link
-                    href={'mailto:renaudsennon@gmail.com'}
-                    className={'inline-block cursor-pointer group'}
-                >
-                    <Title
-                        text={'Contact Me 📬'}
-                        className={'origin-left group-hover:text-green-400 group-hover:-translate-y-1 group-hover:-rotate-[1.5deg] transition-transform duration-150 ease-in-out'}
-                    />
-                </Link>
+                <div className={'w-fit mx-auto lg:mx-0'}>
+                    <div className={'hover:-translate-y-[5px] hover:text-green-500 hover:-rotate-[1.5deg] duration-100'}>
+                        <Link
+                            href={'mailto:renaudsennon@gmail.com'}
+                            className={'inline-block cursor-pointer'}
+                        >
+                            <Title
+                                text={'Contact Me 📬'}
+                                className={'origin-left group-hover:text-green-500'}
+                            />
+                        </Link>
+                    </div>
+                </div>
             </div>
             {/* Hero Image */}
             <div className={'relative'}>
