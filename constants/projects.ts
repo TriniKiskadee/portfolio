@@ -1,10 +1,9 @@
 import {
-    SiClerk,
-    SiMongodb,
+    SiClerk, SiDrizzle,
     SiNextdotjs,
     SiPayloadcms, SiPrisma,
     SiShadcnui,
-    SiStripe,
+    SiStripe, SiSupabase,
     SiTailwindcss,
     SiTrpc,
     SiTypescript,
@@ -25,5 +24,12 @@ export const projects = [
         link: 'https://github.com/TriniKiskadee/digitalhippo/tree/master',
         cover: '/projects/digital_hippo_thumbnail.jpg',
         background: `bg-emerald-500`,
+    },
+    {
+        title: 'Cypress',
+        tech: [SiNextdotjs, SiTypescript, SiTailwindcss, SiStripe, SiSupabase, SiDrizzle ,SiShadcnui],
+        link: 'https://github.com/TriniKiskadee/cypress',
+        cover: '/projects/cypress_thumbnail.png',
+        background: `bg-amber-500`,
     },
 ]
