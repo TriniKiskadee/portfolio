@@ -1,5 +1,5 @@
 import {
-    SiClerk, SiDrizzle,
+    SiClerk, SiDrizzle, SiHono,
     SiNextdotjs,
     SiPayloadcms, SiPrisma,
     SiShadcnui,
@@ -12,10 +12,10 @@ import {
 
 export const projects = [
     {
-        title: 'Minerva AI (coming soon)',
-        tech: [SiNextdotjs, SiTypescript, SiTailwindcss, SiStripe, SiClerk, SiPrisma, SiShadcnui],
-        link: '/coming-soon',
-        cover: '/caution.png',
+        title: 'PingPanda',
+        tech: [SiNextdotjs, SiTypescript, SiTailwindcss, SiStripe, SiClerk, SiPrisma, SiShadcnui, SiHono],
+        link: 'https://pingpanda-green.vercel.app/',
+        cover: '/projects/pingpanda_thumbnail.png',
         background: 'bg-rose-500',
     },
     {
